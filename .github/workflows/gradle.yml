@@ -19,8 +19,8 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
-    - name: Look for gradlew
-      run: find / -type f -name "gradlew"
+    - name: Generate Wrapper 
+      run: gradle wrapper
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
