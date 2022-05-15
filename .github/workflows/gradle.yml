@@ -29,4 +29,4 @@ jobs:
       uses: actions/upload-artifact@v2.2.3
       with:
         name: spring-gumball
-        path: build/libs/spring-gumball-2.0.jar
+        path: build/libs/spring-gumball-2.0.jar 
